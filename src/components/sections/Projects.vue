@@ -7,7 +7,7 @@
       description:
         'O Winterman se baseia em um página que traz o clima da cidade que o usuário pesquisar.',
       repository: 'https://github.com/davsilvam/winterman-app',
-      image: '/winterman_sc.png',
+      image: 'winterman_sc.png',
       stacks: [{ name: 'Tailwind' }, { name: 'Vue.js' }]
     },
     {
@@ -15,7 +15,7 @@
       description:
         'O Link Pack é um projeto cujo objetivo é agregar os links das minhas redes sociais e portfólio.',
       repository: 'https://github.com/davsilvam/link-pack',
-      image: '/linkpack_sc.png',
+      image: 'linkpack_sc.png',
       stacks: [{ name: 'Tailwind' }, { name: 'Vue.js' }]
     },
     {
@@ -23,7 +23,7 @@
       description:
         'Esta é uma pequena Landing Page desenvolvida no desafio 05 da Codelândia, proposto pelo Iuri Silva.',
       repository: 'https://github.com/davsilvam/spirited-away',
-      image: '/spirited_away_sc.png',
+      image: 'spirited_away_sc.png',
       stacks: [{ name: 'HTML' }, { name: 'CSS' }]
     },
     {
@@ -31,7 +31,7 @@
       description:
         'O Rocketpay é um componente que simula o formulário de preenchimento de cartão de crédito.',
       repository: 'https://github.com/davsilvam/explorer-lab',
-      image: '/rocketpay_sc.png',
+      image: 'rocketpay_sc.png',
       stacks: [{ name: 'JavaScript' }]
     },
     {
@@ -39,7 +39,7 @@
       description:
         'Este é um desafio proposto pela Rocketseat no qual em 21 dias serão realizados projetos diários.',
       repository: 'https://github.com/davsilvam/21-dias-de-codigo',
-      image: '/21_dias_de_codigo_sc.png',
+      image: '21_dias_de_codigo_sc.png',
       stacks: [{ name: 'HTML' }, { name: 'CSS' }, { name: 'JavaScript' }]
     },
     {
@@ -47,7 +47,7 @@
       description:
         'A Parsi ajuda a registrar suas transações, auxiliando no melhor gerenciamento dos gastos.',
       repository: 'https://github.com/davsilvam/parsi-app',
-      image: '/parsi_sc.png',
+      image: 'parsi_sc.png',
       stacks: [{ name: 'CSS' }, { name: 'Vue.js' }, { name: 'Firebase' }]
     },
   ]
