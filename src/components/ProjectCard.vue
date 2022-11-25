@@ -14,7 +14,7 @@
     :href="repository"
     target="_blank"
   >
-    <img class="rounded-t-xl" :src="`src/assets/img/${props.image}`" />
+    <img class="rounded-t-xl" :src="props.image" />
     <div class="flex flex-col py-5 px-6">
       <h2 class="text-lg font-bold text-primary">{{ props.title }}</h2>
       <div class="flex gap-2">
