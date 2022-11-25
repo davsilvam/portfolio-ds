@@ -1,5 +1,11 @@
 <script setup>
   import ProjectCard from '../ProjectCard.vue'
+  import wintermanSrc from '@/assets/img/winterman_sc.png'
+  import linkpackSrc from '@/assets/img/linkpack_sc.png'
+  import spiritedAwaySrc from '@/assets/img/spirited_away_sc.png'
+  import rocketpaySrc from '@/assets/img/rocketpay_sc.png'
+  import twentyOneSrc from '@/assets/img/21_dias_de_codigo_sc.png'
+  import parsiSrc from '@/assets/img/parsi_sc.png'
 
   const projects = [
     {
@@ -7,7 +13,7 @@
       description:
         'O Winterman se baseia em um página que traz o clima da cidade que o usuário pesquisar.',
       repository: 'https://github.com/davsilvam/winterman-app',
-      image: 'src/assets/img/winterman_sc.png',
+      image: wintermanSrc,
       stacks: [{ name: 'Tailwind' }, { name: 'Vue.js' }]
     },
     {
@@ -15,7 +21,7 @@
       description:
         'O Link Pack é um projeto cujo objetivo é agregar os links das minhas redes sociais e portfólio.',
       repository: 'https://github.com/davsilvam/link-pack',
-      image: 'src/assets/img/linkpack_sc.png',
+      image: linkpackSrc,
       stacks: [{ name: 'Tailwind' }, { name: 'Vue.js' }]
     },
     {
@@ -23,7 +29,7 @@
       description:
         'Esta é uma pequena Landing Page desenvolvida no desafio 05 da Codelândia, proposto pelo Iuri Silva.',
       repository: 'https://github.com/davsilvam/spirited-away',
-      image: 'src/assets/img/spirited_away_sc.png',
+      image: spiritedAwaySrc,
       stacks: [{ name: 'HTML' }, { name: 'CSS' }]
     },
     {
@@ -31,7 +37,7 @@
       description:
         'O Rocketpay é um componente que simula o formulário de preenchimento de cartão de crédito.',
       repository: 'https://github.com/davsilvam/explorer-lab',
-      image: 'src/assets/img/rocketpay_sc.png',
+      image: rocketpaySrc,
       stacks: [{ name: 'JavaScript' }]
     },
     {
@@ -39,7 +45,7 @@
       description:
         'Este é um desafio proposto pela Rocketseat no qual em 21 dias serão realizados projetos diários.',
       repository: 'https://github.com/davsilvam/21-dias-de-codigo',
-      image: 'src/assets/img/21_dias_de_codigo_sc.png',
+      image: twentyOneSrc,
       stacks: [{ name: 'HTML' }, { name: 'CSS' }, { name: 'JavaScript' }]
     },
     {
@@ -47,7 +53,7 @@
       description:
         'A Parsi ajuda a registrar suas transações, auxiliando no melhor gerenciamento dos gastos.',
       repository: 'https://github.com/davsilvam/parsi-app',
-      image: 'src/assets/img/parsi_sc.png',
+      image: parsiSrc,
       stacks: [{ name: 'CSS' }, { name: 'Vue.js' }, { name: 'Firebase' }]
     },
   ]
