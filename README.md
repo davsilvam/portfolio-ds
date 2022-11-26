@@ -1,6 +1,7 @@
 # Portfólio - David Silva
 
 ## :computer: **Projeto**
+<img src=".github/banner.png">
 
 Este é o meu portfólio pessoal, apresentando um pouco sobre mim, minhas habilidades, projetos e redes de contato.
 
@@ -25,21 +26,16 @@ Tecnologias utilizadas no projeto.
 * CSS;
 * [Tailwind CSS](https://tailwindcss.com);
 * JavaScript;
-* [Node e NPM](https://nodejs.org/);
 * [Vue.js](https://vuejs.org);
+* [Node e NPM](https://nodejs.org/);
 * [Vite](https://vitejs.dev/);
-* [Remixicon](https://remixicon.com);
-* [Haikei](https://app.haikei.app);
 * Visual Studio Code;
+* [Remixicon](https://remixicon.com);
 * Google Fonts.
 
-## :memo: **Licença**
+## :balance_scale: **Licença**
 
-Esse projeto está sob a licença MIT.
-
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=49AA26&labelColor=000000">
-</p>
+Esse projeto está sob a [licença MIT](https://github.com/davsilvam/portfolio-ds/blob/main/LICENSE.md).
 
 Feito com :purple_heart: por [David Silva](https://www.linkedin.com/in/davsilvam/).
 
