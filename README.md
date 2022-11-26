@@ -44,7 +44,7 @@ Tecnologias utilizadas no projeto.
 * [Visual Studio Code](https://code.visualstudio.com)
 * [Git](https://git-scm.com)
 * [GitHub](https://github.com)
-* [Vercel](vercel.com)
+* [Vercel](https://vercel.com/)
 
 ## :balance_scale: **Licença**
 
