@@ -22,16 +22,29 @@ Este é o meu portfólio pessoal, apresentando um pouco sobre mim, minhas habili
 
 ## :wrench: **Tecnologias**
 Tecnologias utilizadas no projeto.
-* HTML;
-* CSS;
-* [Tailwind CSS](https://tailwindcss.com);
-* JavaScript;
+
+### :hammer: **Construção do site**
+
+* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML);
+* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript);
 * [Vue.js](https://vuejs.org);
 * [Node e NPM](https://nodejs.org/);
-* [Vite](https://vitejs.dev/);
-* Visual Studio Code;
+* [Vite](https://vitejs.dev/).
+
+### :art: **Estilização** 
+
+* [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS);
+* [Tailwind CSS](https://tailwindcss.com);
 * [Remixicon](https://remixicon.com);
-* Google Fonts.
+* [Haikei](https://app.haikei.app);
+* [Google Fonts](https://fonts.google.com).
+
+### :open_file_folder: **IDE, Versionamento e Deploy**
+
+* [Visual Studio Code](https://code.visualstudio.com);
+* [Git](https://git-scm.com);
+* [GitHub](https://github.com);
+* [Vercel](vercel.com).
 
 ## :balance_scale: **Licença**
 
