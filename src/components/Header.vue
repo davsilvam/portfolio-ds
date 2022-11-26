@@ -1,5 +1,6 @@
 <script setup>
   import { ref } from 'vue'
+  import curriculum from '@/assets/david_silva.pdf'
 
   const props = defineProps(['asideState'])
   const emits = defineEmits(['asideState'])
@@ -22,9 +23,10 @@
         <li class="hover:text-secondary font-semibold"><a href="#habilidades">Habilidades</a></li>
         <li class="hover:text-secondary font-semibold"><a href="#projetos">Projetos</a></li>
         <li class="hover:text-secondary font-semibold"><a href="#contato">Contato</a></li>
-        <button class="flex gap-2 px-4 py-2 border-2 font-semibold border-primary rounded-lg hover:bg-primary hover:text-white transition-colors duration-300">
+        <a :href="curriculum" download="david_silva.pdf" class="flex gap-2 px-4 py-2 border-2 font-semibold border-primary rounded-lg hover:bg-primary hover:text-white transition-colors duration-300">
           Baixar CV 
-          <i class="ri-download-2-line"></i></button>
+          <i class="ri-download-2-line"></i>
+        </a>
       </ul>
 
       <button id="menu" class="lg:hidden text-primary hover:text-secondary text-xl fixed top-7" @click="toogleAside">

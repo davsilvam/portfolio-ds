@@ -1,5 +1,12 @@
+<script setup>
+  import curriculum from '@/assets/david_silva.pdf'
+</script>
+
 <template>
-  <section id="sobre_mim" class="w-full flex flex-col gap-8 py-8 px-11 md:px-36 bg-[url(@/assets/img/bg/mobile_stars.svg)] lg:bg-[url(@/assets/img/bg/stars.svg)] bg-center">
+  <section
+    id="sobre_mim"
+    class="w-full flex flex-col gap-8 py-8 px-11 md:px-36 bg-[url(@/assets/img/bg/mobile_stars.svg)] lg:bg-[url(@/assets/img/bg/stars.svg)] bg-center"
+  >
     <h2 class="flex items-center gap-4 text-neutral-100 text-2xl font-semibold">
       <div class="h-6 w-1 bg-primary"></div>
       <span class="flex gap-2">
@@ -32,7 +39,12 @@
           próprio com esse conhecimento.
         </p>
         <p class="text-neutral-100 text-justify">
-          Adiante estão algumas das minhas <strong class="text-primary">redes sociais</strong>, além de um botão para baixar o meu <strong class="text-primary">currículo</strong>, te convido a explorá-los, ou se preferir, continue pela página e descubra mais um pouco sobre o meu <strong class="text-primary">perfil profissional</strong>.
+          Adiante estão algumas das minhas
+          <strong class="text-primary">redes sociais</strong>, além de um botão
+          para baixar o meu <strong class="text-primary">currículo</strong>, te
+          convido a explorá-los, ou se preferir, continue pela página e descubra
+          mais um pouco sobre o meu
+          <strong class="text-primary">perfil profissional</strong>.
         </p>
         <div class="flex items-center justify-center gap-4">
           <a
@@ -47,15 +59,20 @@
             class="flex items-center text-primary text-5xl"
             ><i class="ri-linkedin-box-fill"></i
           ></a>
-          <button
+          <a
+            :href="curriculum"
+            download="david_silva.pdf"
             class="flex items-center h-fit gap-2 px-4 py-2 border-2 text-primary border-primary rounded-lg font-semibold hover:bg-primary hover:text-white transition-colors duration-300"
           >
             Baixar CV <i class="ri-download-2-line"></i>
-          </button>
+          </a>
         </div>
         <div class="w-full flex items-center justify-center pt-10">
-          <a href="#habilidades" class="text-primary text-center font-semibold animate-pulse flex flex-col lg:flex-row lg:text-justify items-center lg:gap-6 text-lg">
-            Está pronto para saber um pouco sobre minhas habilidades? 
+          <a
+            href="#habilidades"
+            class="text-primary text-center font-semibold animate-pulse flex flex-col lg:flex-row lg:text-justify items-center lg:gap-6 text-lg"
+          >
+            Está pronto para saber um pouco sobre minhas habilidades?
             <i class="ri-arrow-down-s-line"></i>
           </a>
         </div>
