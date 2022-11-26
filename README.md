@@ -37,6 +37,8 @@ Tecnologias utilizadas no projeto.
 
 Esse projeto está sob a [licença MIT](https://github.com/davsilvam/portfolio-ds/blob/main/LICENSE.md).
 
-Feito com :purple_heart: por [David Silva](https://www.linkedin.com/in/davsilvam/).
+<p align="center">
+  Feito com :purple_heart: por <a href="https://www.linkedin.com/in/davsilvam/">David Silva</a>.
+</p>
 
 ---
