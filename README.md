@@ -1,7 +1,46 @@
-# Vue 3 + Vite
+# Portfólio - David Silva
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## :computer: **Projeto**
 
-## Recommended IDE Setup
+Este é o meu portfólio pessoal, apresentando um pouco sobre mim, minhas habilidades, projetos e redes de contato.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+<p align="center">
+   <a href="https://portfolio-ds-one.vercel.app">Veja o projeto completo aqui.</a>
+</p>
+
+## :art: **Visual do Projeto**
+### *Desktop e Telas Maiores*
+<h1 align="center">
+    <img src=".github/desktop_screenshot.gif" style="width: 70%">
+</h1>
+
+### *Mobile e Telas Menores*
+<h1 align="center">
+    <img src=".github/mobile_screenshot.gif" style="width: 40%">
+</h1>
+
+## :wrench: **Tecnologias**
+Tecnologias utilizadas no projeto.
+* HTML;
+* CSS;
+* [Tailwind CSS](https://tailwindcss.com);
+* JavaScript;
+* [Node e NPM](https://nodejs.org/);
+* [Vue.js](https://vuejs.org);
+* [Vite](https://vitejs.dev/);
+* [Remixicon](https://remixicon.com);
+* [Haikei](https://app.haikei.app);
+* Visual Studio Code;
+* Google Fonts.
+
+## :memo: **Licença**
+
+Esse projeto está sob a licença MIT.
+
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=49AA26&labelColor=000000">
+</p>
+
+Feito com :purple_heart: por [David Silva](https://www.linkedin.com/in/davsilvam/).
+
+---
