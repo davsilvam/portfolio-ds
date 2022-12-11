@@ -7,7 +7,13 @@
     id="sobre_mim"
     class="w-full flex flex-col gap-8 py-8 px-11 md:px-36 bg-[url(@/assets/img/bg/mobile_stars.svg)] lg:bg-[url(@/assets/img/bg/stars.svg)] bg-center"
   >
-    <h2 class="flex items-center gap-4 text-neutral-100 text-2xl font-semibold">
+    <h2
+      class="flex items-center gap-4 text-neutral-100 text-2xl font-semibold"
+      v-motion
+      :initial="{ opacity: 0, x: -100 }"
+      :enter="{ opacity: 1, x: 0 }"
+      :delay="500"
+    >
       <div class="h-6 w-1 bg-primary"></div>
       <span class="flex gap-2">
         Sobre mim
@@ -15,7 +21,11 @@
       </span>
     </h2>
     <div class="w-full flex flex-col items-center gap-6">
-      <div class="w-full lg:w-2/5 flex flex-col items-center gap-4">
+      <div
+        class="w-full lg:w-2/5 flex flex-col items-center gap-4"
+        v-motion-fade
+        :delay="1000"
+      >
         <img
           src="https://github.com/davsilvam.png"
           alt="Minha foto de perfil do Github"
@@ -29,7 +39,7 @@
         </div>
       </div>
       <div class="w-full lg:w-3/5 flex flex-col gap-4">
-        <p class="text-neutral-100 text-justify">
+        <p class="text-neutral-100 text-justify" v-motion-fade :delay="1500">
           Oi, eu sou o <strong class="text-primary">David</strong> e atualmente
           estou na fase inicial dos meus estudos de
           <strong class="text-primary">Desenvolvimento Web</strong>,
@@ -38,7 +48,7 @@
           própria, e quero alcançar grandes empresas, ou até mesmo, um projeto
           próprio com esse conhecimento.
         </p>
-        <p class="text-neutral-100 text-justify">
+        <p class="text-neutral-100 text-justify" v-motion-fade :delay="2250">
           Adiante estão algumas das minhas
           <strong class="text-primary">redes sociais</strong>, além de um botão
           para baixar o meu <strong class="text-primary">currículo</strong>, te
@@ -51,23 +61,33 @@
             href="https://github.com/davsilvam"
             target="_blank"
             class="flex items-center text-primary text-5xl"
+            v-motion-slide-visible-once-bottom
+            :delay="500"
             ><i class="ri-github-fill"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/davsilvam"
             target="_blank"
             class="flex items-center text-primary text-5xl"
+            v-motion-slide-visible-once-bottom
+            :delay="500"
             ><i class="ri-linkedin-box-fill"></i
           ></a>
           <a
             :href="curriculum"
             download="david_silva.pdf"
             class="flex items-center h-fit gap-2 px-4 py-2 border-2 text-primary border-primary rounded-lg font-semibold hover:bg-primary hover:text-white transition-colors duration-300"
+            v-motion-fade-visible-once
+            :delay="1500"
           >
             Baixar CV <i class="ri-download-2-line"></i>
           </a>
         </div>
-        <div class="w-full flex items-center justify-center pt-10">
+        <div
+          class="w-full flex items-center justify-center pt-10"
+          v-motion-fade-visible-once
+          :delay="3000"
+        >
           <a
             href="#habilidades"
             class="text-primary text-center font-semibold animate-pulse flex flex-col lg:flex-row lg:text-justify items-center lg:gap-6 text-lg"

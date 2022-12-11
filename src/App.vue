@@ -1,13 +1,12 @@
 <script setup>
+  import { ref } from 'vue'
   import Header from './components/Header.vue'
   import Aside from './components/Aside.vue'
   import Main from './components/Main.vue'
-  import { ref } from 'vue'
 
   const asideState = ref(false)
 
-  const toogleAside = 
-    data => asideState.value = data
+  const toogleAside = (data) => (asideState.value = data)
 </script>
 
 <template>
@@ -18,6 +17,4 @@
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
