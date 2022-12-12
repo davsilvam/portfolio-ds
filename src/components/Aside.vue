@@ -21,18 +21,22 @@
       <i class="ri-menu-4-line"></i>
     </button>
     <ul
-      class="flex flex-col items-end justify-center gap-6 text-primary font-semibold"
+      class="flex flex-col items-start justify-center gap-6 text-primary font-semibold"
     >
-      <li>
+      <li class="flex gap-2">
+        <i class="ri-emotion-line font-normal"></i>
         <a href="#sobre_mim"> Sobre mim </a>
       </li>
-      <li>
+      <li class="flex gap-2">
+        <i class="ri-code-line"></i>
         <a href="#habilidades"> Habilidades </a>
       </li>
-      <li>
+      <li class="flex gap-2">
+        <i class="ri-layout-line font-normal"></i>
         <a href="#projetos"> Projetos </a>
       </li>
-      <li>
+      <li class="flex gap-2">
+        <i class="ri-question-answer-line font-normal"></i>
         <a href="#contato"> Contato </a>
       </li>
     </ul>
