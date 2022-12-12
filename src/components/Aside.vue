@@ -10,7 +10,7 @@
 
 <template>
   <aside
-    class="fixed top-0 right-0 lg:hidden w-60 h-screen flex items-center justify-center z-10 bg-neutral-900 border-l-2 border-primary"
+    class="fixed top-0 right-0 lg:hidden w-44 h-screen flex items-center justify-center z-10 bg-neutral-900 border-l-2 border-primary"
     :class="{ 'right-full': !props.asideState }"
   >
     <button
