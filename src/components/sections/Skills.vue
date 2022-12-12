@@ -80,7 +80,7 @@
     <div
       class="flex items-center justify-center w-full lg:min-h-72"
       v-motion
-      :initial="{ opacity: 0, x: 100 }"
+      :initial="{ opacity: 0, x: -100 }"
       :visibleOnce="{ opacity: 1, x: 0 }"
       :delay="500"
     >

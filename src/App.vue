@@ -10,7 +10,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="w-full flex flex-col">
     <Header :asideState="asideState" @asideState="toogleAside" />
     <Aside :asideState="asideState" @asideState="toogleAside" />
     <Main />

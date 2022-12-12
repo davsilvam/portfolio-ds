@@ -1,7 +1,7 @@
 <script setup>
   const props = defineProps(['asideState'])
 
-  const emits = defineEmits(['asideState']) 
+  const emits = defineEmits(['asideState'])
 
   const toogleAside = () => {
     emits('asideState', !props.asideState)
@@ -10,50 +10,30 @@
 
 <template>
   <aside
-    class="lg:hidden w-20 h-screen flex items-center justify-center fixed top-0 z-10 bg-neutral-900 right-0 transition-transform duration-300 border-l-2 border-primary"
-    :class="{ 'translate-x-full': !props.asideState }"
+    class="fixed top-0 right-0 lg:hidden w-60 h-screen flex items-center justify-center z-10 bg-neutral-900 border-l-2 border-primary"
+    :class="{ 'right-full': !props.asideState }"
   >
     <button
       id="menu"
-      class="lg:hidden text-primary hover:text-secondary text-xl fixed top-7"
+      class="lg:hidden text-primary hover:text-secondary text-xl fixed top-7 right-6"
       @click="toogleAside"
     >
       <i class="ri-menu-4-line"></i>
     </button>
     <ul
-      class="flex flex-col items-start justify-center gap-3 text-primary font-semibold"
+      class="flex flex-col items-end justify-center gap-6 text-primary font-semibold"
     >
-      <li class="hover:text-neutral-900">
-        <a
-          href="#sobre_mim"
-          class="flex py-3 px-4 bg-neutral-800 rounded-full hover:bg-primary"
-        >
-          <i class="ri-emotion-line"></i>
-        </a>
+      <li>
+        <a href="#sobre_mim"> Sobre mim </a>
       </li>
-      <li class="hover:text-neutral-900">
-        <a
-          href="#habilidades"
-          class="flex py-3 px-4 bg-neutral-800 rounded-full hover:bg-primary"
-        >
-          <i class="ri-code-line font-bold"></i>
-        </a>
+      <li>
+        <a href="#habilidades"> Habilidades </a>
       </li>
-      <li class="hover:text-neutral-900">
-        <a
-          href="#projetos"
-          class="flex py-3 px-4 bg-neutral-800 rounded-full hover:bg-primary"
-        >
-          <i class="ri-layout-line"></i>
-        </a>
+      <li>
+        <a href="#projetos"> Projetos </a>
       </li>
-      <li class="hover:text-neutral-900">
-        <a
-          href="#contato"
-          class="flex py-3 px-4 bg-neutral-800 rounded-full hover:bg-primary"
-        >
-          <i class="ri-question-answer-line"></i>
-        </a>
+      <li>
+        <a href="#contato"> Contato </a>
       </li>
     </ul>
   </aside>

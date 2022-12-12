@@ -31,13 +31,13 @@
     </div>
     <div
       class="w-full flex flex-wrap lg:flex-nowrap justify-between gap-10 text-center"
+      v-motion-slide-visible-once-left
+      :delay="2000"
     >
       <a
         href="https://www.linkedin.com/in/davsilvam"
         target="_blank"
         class="w-full lg:w-1/2 bg-neutral-800 py-6 px-8 rounded-md relative cursor-pointer hover:bg-neutral-900 transition-colors duration-300"
-        v-motion-slide-visible-once-left
-        :delay="1500"
       >
         <h2 class="text-xl font-bold text-primary">Linkedin</h2>
         <p class="text-neutral-200 text-sm">
@@ -50,8 +50,6 @@
       <a
         href="mailto:contatodavidmai@gmail.com"
         class="w-full lg:w-1/2 bg-neutral-800 py-6 px-8 rounded-md relative cursor-pointer hover:bg-neutral-900 transition-colors duration-300"
-        v-motion-slide-visible-once-right
-        :delay="2000"
       >
         <h2 class="text-xl font-bold text-primary">Email</h2>
         <p class="text-neutral-200 text-sm">
