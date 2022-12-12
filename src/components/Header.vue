@@ -1,7 +1,3 @@
-<script setup>
-  import curriculum from '@/assets/david_silva.pdf'
-</script>
-
 <template>
   <header
     class="w-full flex justify-between items-center bg-neutral-800 px-11 py-6 md:px-20 fixed z-10"
@@ -26,11 +22,10 @@
           <a href="#contato">Contato</a>
         </li>
         <a
-          :href="curriculum"
-          download="david_silva.pdf"
+          href="https://drive.google.com/file/d/1QcnmglduxAO2EEgldALGCNqAOlTZUeIK/view?usp=sharing"
           class="flex gap-2 px-4 py-2 border-2 font-semibold border-primary rounded-lg hover:bg-primary hover:text-white transition-colors duration-300"
         >
-          Baixar CV
+          Visualizar CV
           <i class="ri-download-2-line"></i>
         </a>
       </ul>

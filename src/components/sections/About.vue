@@ -1,7 +1,3 @@
-<script setup>
-  import curriculum from '@/assets/david_silva.pdf'
-</script>
-
 <template>
   <section
     id="sobre_mim"
@@ -61,7 +57,7 @@
             href="https://github.com/davsilvam"
             target="_blank"
             class="flex items-center text-primary text-5xl"
-            v-motion-slide-visible-once-bottom
+            v-motion-slide-bottom
             :delay="500"
             ><i class="ri-github-fill"></i
           ></a>
@@ -69,23 +65,22 @@
             href="https://www.linkedin.com/in/davsilvam"
             target="_blank"
             class="flex items-center text-primary text-5xl"
-            v-motion-slide-visible-once-bottom
+            v-motion-slide-bottom
             :delay="500"
             ><i class="ri-linkedin-box-fill"></i
           ></a>
           <a
-            :href="curriculum"
-            download="david_silva.pdf"
+            href="https://drive.google.com/file/d/1QcnmglduxAO2EEgldALGCNqAOlTZUeIK/view?usp=sharing"
             class="flex items-center h-fit gap-2 px-4 py-2 border-2 text-primary border-primary rounded-lg font-semibold hover:bg-primary hover:text-white transition-colors duration-300"
-            v-motion-fade-visible-once
+            v-motion-fade
             :delay="1500"
           >
-            Baixar CV <i class="ri-download-2-line"></i>
+            Visualizar CV <i class="ri-download-2-line"></i>
           </a>
         </div>
         <div
           class="w-full flex items-center justify-center pt-10"
-          v-motion-fade-visible-once
+          v-motion-fade
           :delay="3000"
         >
           <a
