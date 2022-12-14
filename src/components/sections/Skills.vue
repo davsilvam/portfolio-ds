@@ -48,7 +48,7 @@
       name: 'Vue.js',
       subtitle: 'Framework JavaScript Progressivo',
       description:
-        'Domino diretivas, propriedades computadas, observadores, Life Cycle Hooks, slots, CSS Scoped, props e emits, rotas, gerenciamento de estado (Vuex e Pinia), composition API, componentes, reatividade. O Vue é o framework em que estou focando meus projetos, e pretendo fazer coisas grandiosas com as diversas funcionalidades que ele traz.',
+        'Domino diretivas, propriedades computadas, observadores, Life Cycle Hooks, slots, props e emits, rotas, gerenciamento de estado (Pinia), composition API, componentes, reatividade. O Vue é o framework em que estou focando meus projetos.',
     },
   ])
 
@@ -72,10 +72,7 @@
       :delay="500"
     >
       <div class="h-6 w-1 bg-neutral-900"></div>
-      <span class="flex gap-2">
-        Habilidades
-        <i class="ri-code-line"></i>
-      </span>
+      Habilidades
     </h2>
     <div
       class="flex items-center justify-center w-full lg:min-h-72"

@@ -11,10 +11,7 @@
       :delay="500"
     >
       <div class="h-6 w-1 bg-primary"></div>
-      <span class="flex gap-2">
-        Sobre mim
-        <i class="ri-emotion-line font-normal"></i>
-      </span>
+      Sobre mim
     </h2>
     <div class="w-full flex flex-col items-center gap-6">
       <div

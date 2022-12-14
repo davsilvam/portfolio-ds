@@ -11,10 +11,7 @@
       :delay="1000"
     >
       <div class="h-6 w-1 bg-neutral-900"></div>
-      <span class="flex gap-2">
-        Contato
-        <i class="ri-question-answer-line font-normal"></i>
-      </span>
+      Contato
     </h2>
     <div class="w-full flex items-center justify-center">
       <p

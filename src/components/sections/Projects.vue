@@ -4,7 +4,7 @@
   import ProjectCard from '../ProjectCard.vue'
   import wintermanSrc from '@/assets/img/winterman_sc.png'
   import linkpackSrc from '@/assets/img/linkpack_sc.png'
-  import spiritedAwaySrc from '@/assets/img/spirited_away_sc.png'
+  import towoSrc from '@/assets/img/towo_sc.png'
   import rocketpaySrc from '@/assets/img/rocketpay_sc.png'
   import twentyOneSrc from '@/assets/img/21_dias_de_codigo_sc.png'
   import parsiSrc from '@/assets/img/parsi_sc.png'
@@ -29,12 +29,16 @@
       delay: 800,
     },
     {
-      title: 'A Viagem de Chihiro',
+      title: 'ToWo List',
       description:
-        'Esta é uma pequena Landing Page desenvolvida no desafio 05 da Codelândia, proposto pelo Iuri Silva.',
+        'A ToWo List auxilia o registro de suas atividades física que envolvam séries de exercícios.',
       repository: 'https://github.com/davsilvam/spirited-away',
-      image: spiritedAwaySrc,
-      stacks: [{ name: 'HTML' }, { name: 'CSS' }],
+      image: towoSrc,
+      stacks: [
+        { name: 'Tailwind' },
+        { name: 'Vue.js' },
+        { name: 'TypeScript' },
+      ],
       delay: 1100,
     },
     {
@@ -55,7 +59,7 @@
       delay: 1400,
     },
     {
-      title: 'Parsi (em teste...)',
+      title: 'Parsi (desenvolvendo...)',
       description:
         'A Parsi ajuda a registrar suas transações, auxiliando no melhor gerenciamento dos gastos.',
       repository: 'https://github.com/davsilvam/parsi-app',
@@ -76,10 +80,7 @@
       :delay="500"
     >
       <div class="h-6 w-1 bg-primary"></div>
-      <span class="flex gap-2">
-        Projetos
-        <i class="ri-layout-line font-normal"></i>
-      </span>
+      Projetos
     </h2>
     <div
       class="w-full flex items-center justify-center"
